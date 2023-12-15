@@ -2,7 +2,7 @@ CREATE STORAGE INTEGRATION s3_int
   TYPE = EXTERNAL_STAGE
   STORAGE_PROVIDER = 'S3'
   ENABLED = TRUE
-  STORAGE_AWS_ROLE_ARN = 'arn:aws:iam::725788449614:role/SF_role'
+  STORAGE_AWS_ROLE_ARN = 'arn:aws:iam::72xxxxxxx14:role/SF_role'
   STORAGE_ALLOWED_LOCATIONS = ('s3://events169/To_Process')
   STORAGE_BLOCKED_LOCATIONS = ('s3://events169/Anomaly', 's3://events169/Processed');
 
